@@ -11,7 +11,7 @@ app.notFound((c) => c.json({ message: 'Not Found', ok: false }, 404))
 
 app.route('/api', api)
 
-const port = 3000
+const port = 8080
 console.log(`Server is running on  http://localhost:${port}/api`)
 
 serve({
